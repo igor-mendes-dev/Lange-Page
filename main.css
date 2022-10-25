@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    background-color:#008B8B;
+}
+
+main {
+    margin-left: 20%;
+}
+
+.sidebar {
+    margin-top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+
+.sidebar img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 70%;
+    border: solid 8px #86cccc;;
+    
+   }
+
+li {
+    width: 100%;
+    list-style: none;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #86cccc;
+    font-weight: 600;
+    transition: all .5s ease;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+section {
+    height: 80vh;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#home h1{
+    font-size: 130px;
+}
+
+#home p{
+    font-size: 50px;
+    color:  #008B8B;
+}
+
+h2{
+    color:#008B8B;
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+}
+
+#contact a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#contact a:hover{
+    color: #008B8B;;
+}
+
+.tecnologias{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.tecnologias img{
+    display: flex;
+    width: 15%;
+    margin-top: 50px;
+}
+.tecnologias img:hover{
+    width: 17%;
+}
+
+.card-port{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.card-1, .card-2, .card-3{
+    width: 200px;
+    height: 300px;
+    background-color: #008B8B;
+    border: solid 5px #86cccc;
+    border-radius: 15%;
+}
+
+.card-1 h1, .card-2 h1, .card-3 h1{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #86cccc;
+}   
+
+.card-port .card-1:hover, .card-port .card-2:hover, .card-port .card-3:hover{
+    background-color: #919191;
+    transition: all .5s ease;
+    width: 210px;
+    height: 310px;
+    font-size: 20px;
+}
+
